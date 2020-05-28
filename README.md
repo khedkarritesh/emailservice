@@ -1,12 +1,13 @@
 # Email Service
 
-This is a Rest App for counting unique email IDs. 
+This is a REST App for counting unique email IDs. 
 
-It uses maven POM file so it should be import as a Maven Project.
+It has maven POM file so can be imported as a Maven Project.
 
-The Test Cases should be a good starting point. All test work successfully with current code, so if anything breaks, please provide feedback.
+The Test Cases will be a good starting point. If anything breaks then please provide feedback but as of this commit all test cases work successfully.
 
-The application can also be started as a 'server' by running the Main.java and then using something like Postman. 
+This application can also be started as a 'server' by executing the Main.java as Java Application. The an application such as Postman can be used to perform REST calls. 
+
 Here's a sample from Postman:
 URL:http://localhost:8080/myapp/email/countUnique
 Method: POST
